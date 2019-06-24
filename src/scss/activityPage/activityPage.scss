@@ -1,0 +1,338 @@
+/*----------------------------------------------------------header start*/
+.acHeader{
+    width: 100%;
+    background: #000;
+    color: #fff;
+    position: fixed;
+    z-index: 9;
+}
+.no-header{
+    width: 100%;
+    height: 64px;
+    background: #000;
+}
+.acHeader .acHeader-content{
+    width: 1200px;
+    height: 64px;
+    margin: 0 auto;
+}
+.acHeader-content h1{
+    line-height: 65px;
+}
+.acHeader-content ul{
+    width: 450px;
+    margin-left: 20%;
+    float: left;
+}
+.acHeader-content ul li{
+    width: 70px;
+    height: 64px;
+    margin-left: 20px;
+    float: left;
+    text-align: center;
+    line-height: 64px;
+    font-size: 16px;
+}
+.acHeader-content ul .li1{
+    background: url(../images/home.jpg) no-repeat;
+}
+.acHeader-content ul .li1:hover{
+    background: url(../images/home_h.jpg) no-repeat;
+}
+.acHeader-content ul .li2:hover {
+    background: #ad0000;
+}
+.acHeader-content .my-login{
+    height: 64px;
+    float: right;
+}
+.acHeader-content .my-login a{
+    display: block;
+    height: 64px;
+    margin: 0 12px;
+    text-align: center;
+    line-height: 64px;
+    color: #ffffff;
+    font-size: 14px;
+    float: left;
+}
+.acHeader-content .my-login .iCloud{
+    width: 32px;
+    height: 64px;
+    background: url(../images/upload.jpg) no-repeat left;
+}
+.acHeader-content .my-cafe{
+    width: 120px;
+    height: 64px;
+    float: right;
+    background: url(../images/acafelogo.jpg) no-repeat;
+}
+/*-------------------------------------------------------------header end*/
+/*-------------------------------------------------------------bigimg start*/
+.big-img{
+    width: 100%;
+    height: 674px;
+    text-align: center;
+    // padding-top: 64px;
+    // padding-bottom: 0px;
+    background: url(../indexImages/kv.jpg) no-repeat center center;
+}
+/*-------------------------------------------------------------bigimg end*/
+/*-------------------------------------------------------------nav-box start*/
+.nav-box{
+    width: 100%;
+    height: 58px;
+    background: #182127;
+    z-index: 10;
+}
+.nav-box ul{
+    width: 1080px;
+    height: 66px;
+    margin-top: 5px;
+    margin: 0 auto;
+}
+.nav-box ul li{
+    float: left;
+    width: 156px;
+    height: 66px;
+    margin: 5px 24px 0 0;
+    // background: url(../images/nav.png) no-repeat;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.nav-box ul .li11{
+    background: url(../images/nav.png) no-repeat left 0;
+}
+// .nav-box ul .li1:hover{
+//     background: url(../images/nav.png) no-repeat  -240px 0;
+// }
+.nav-box ul .li22{
+    background: url(../images/nav.png) no-repeat left -66px;
+}
+// .nav-box ul .li22:hover{
+//     background: url(../images/nav.png) no-repeat -240px -66px;
+// }
+.nav-box ul .li33{
+    background: url(../images/nav.png) no-repeat left -132px;
+}
+// .nav-box ul .li33:hover{
+//     background: url(../images/nav.png) no-repeat -240px -132px;
+// }
+.nav-box ul .li44{
+    background: url(../images/nav.png) no-repeat left -198px;
+}
+// .nav-box ul .li44:hover{
+//     background: url(../images/nav.png) no-repeat -240px -198px;
+// }
+.nav-box ul .li55{
+    background: url(../images/nav.png) no-repeat left -264px;
+}
+// .nav-box ul .li55:hover{
+//     background: url(../images/nav.png) no-repeat -240px -264px;
+// }
+.nav-box ul .li66{
+    background: url(../images/nav.png) no-repeat left -330px;
+}
+// .nav-box ul .li66:hover{
+//     background: url(../images/nav.png) no-repeat -240px -330px;
+// }
+/*-------------------------------------------------------------nav-box end*/
+/*-------------------------------------------------------------mian-img1 start*/
+.main-img1{
+    width: 100%;
+    height: 750px;
+    padding-top: 400px; 
+    text-align: center;
+    background: url(../indexImages/may_01.jpg) no-repeat center center;
+}
+.main-img2{
+    width: 100%;
+    height: 209px; 
+    text-align: center;
+    background: url(../indexImages/may_02.jpg) no-repeat center center;
+}
+.main-img3{
+    width: 100%;
+    height: 514px; 
+    text-align: center;
+    background: url(../indexImages/may_03.jpg) no-repeat center center;
+}
+.main-img4{
+    width: 100%;
+    height: 757px; 
+    text-align: center;
+    background: url(../indexImages/may_04.jpg) no-repeat center center;
+}
+.main-img5{
+    width: 100%;
+    height: 209px; 
+    text-align: center;
+    background: url(../indexImages/may_05.jpg) no-repeat center center;
+}
+.main-img6{
+    width: 100%;
+    height: 150px; 
+    text-align: center;
+    background: url(../indexImages/may_06.jpg) no-repeat center center;
+}
+.main-img7{
+    width: 100%;
+    height: 408px; 
+    text-align: center;
+    background: url(../indexImages/may_07.jpg) no-repeat center center;
+}
+.main-wrap{
+    width: 1090px;
+    height: 1200px;
+    margin: 0 auto;
+}
+.main-img8{
+    width: 100%;
+    height: 1200px; 
+    text-align: center;
+    background: url(../indexImages/may_08.jpg) no-repeat center center;
+}
+.main-wrap .img8-left{
+    width: 526px;
+    height: 789px;
+    margin-top: 385px;
+    position: relative;
+}
+.main-wrap .img8-right{
+    width: 526px;
+    height: 789px;
+   position: relative;
+}
+// .main-wrap .img8-right .right1{
+//     display: none;
+//     position: absolute;
+//     z-index: 1;
+// }
+// .img8-left .left1{
+//      display: none;
+//      position: absolute;
+//      z-index: 1;
+// }
+.main-wrap .selectBox{
+    width: 86px;
+    height: 30px;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    right: 0;
+}
+.main-wrap .selectBox span{
+    float: left;
+    width: 43px;
+    height: 30px;
+    line-height: 30px;
+    background: #222;
+    text-align: center;
+    color: #b6b6b6;
+}
+.main-img9{
+    width: 100%;
+    height: 345px; 
+    text-align: center;
+    background: url(../indexImages/may_09.jpg) no-repeat center center;
+}
+.main-img10{
+    width: 100%;
+    height: 709px; 
+    text-align: center;
+    background: url(../indexImages/may_10.jpg) no-repeat center center;
+}
+.main-img11{
+    width: 100%;
+    height: 1101px; 
+    text-align: center;
+    background: url(../indexImages/may_11.jpg) no-repeat center center;
+}
+.main-img12{
+    width: 100%;
+    height: 480px; 
+    text-align: center;
+    background: url(../indexImages/may_12.jpg) no-repeat center center;
+}
+.main-img13{
+    width: 100%;
+    height: 706px; 
+    text-align: center;
+    background: url(../indexImages/may_13.jpg) no-repeat center center;
+}
+.main-img14{
+    width: 100%;
+    height: 697px; 
+    text-align: center;
+    background: url(../indexImages/may_14.jpg) no-repeat center center;
+}
+.main-img15{
+    width: 100%;
+    height: 1632px; 
+    text-align: center;
+    background: url(../indexImages/may_15.jpg) no-repeat center center;
+}
+.main-img16{
+    width: 100%;
+    height: 1460px; 
+    text-align: center;
+    background: url(../indexImages/may_16.jpg) no-repeat center center;
+}
+.main-img17{
+    width: 100%;
+    height: 407px; 
+    text-align: center;
+    background: url(../indexImages/may_17.jpg) no-repeat center center;
+}
+.main-img18{
+    width: 100%;
+    height: 220px; 
+    text-align: center;
+    background: url(../indexImages/tougao_pc.jpg) no-repeat center center;
+}
+.main-img19{
+    width: 100%;
+    height: 308px; 
+    text-align: center;
+    background: url(../indexImages/ban_960x220_2018.jpg) no-repeat center center;
+}
+/*-------------------------------------------------------------mian-img1 end*/
+/*-------------------------------------------------------------send-msg start*/
+.send-msg{
+    width: 960px;
+    height: 260px;
+    margin: 30px auto;
+    border: 1px solid #ccc;
+}
+.send-msg .msg-cen{
+    width: 898px;
+    overflow: hidden;
+}
+.send-msg .msg-cen h1 img{
+    vertical-align:middle;
+}
+.send-msg .msg-cen h1{
+    height: 26px;
+    line-height: 26px;
+    font-size: 18px;
+    margin: 20px 30px;
+}
+.send-msg .text-con{
+    width: 898px;
+    margin: 0 auto;
+}
+.send-msg .text-con textarea{
+    width: 898px;
+    height: 90px;
+}
+.send-msg .text-con button{
+    width: 80px;
+    height: 40px;
+    background: #cf2700;
+    border: none;
+    outline: none;
+    color: #fff;
+    float: right;
+    margin-top: 20px;
+}
+/*-------------------------------------------------------------send-msg end*/
